@@ -48,17 +48,5 @@ block.addEventListener('click', ()=>{
     console.log(game)
 })
 playground.addEventListener('click', ()=>{
-  if(game.started == false){
-    
-    return;
-    
-  }
-  if(game.started == true){
-    
-    game.started == false;
-    btn_start.style.display = 'true';
-    
-    
-  }
 })
 
