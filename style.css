@@ -12,14 +12,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 96vh
+    height: 75vh
 }
 .btn{
+    display:block;
     border: none;
     padding: 10px 50px;
     font-size: 40px;
     background: #fecb06;
     color: #0f0f0f;
+    margin-left: auto ;
+    margin-right: auto ;
+    text-align:center;
     transition: color 600ms ease-in-out, background 600ms ease-in-out;
 }
 .btn:hover{
@@ -30,6 +34,14 @@ body{
 #block{
     position: absolute;
     border: 1px solid #fecb06;
+    height: 35px;
+    width: 35px;
+    display: none;
+}
+#block2{
+    position: absolute;
+    
+    border: 1px solid #06d1fe;
     height: 35px;
     width: 35px;
     display: none;
