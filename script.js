@@ -79,6 +79,8 @@ block.addEventListener('click',()=>{
 })
 block2.addEventListener('click',()=>{
     game.clicked=true;
+    game.points++
+    DB.innerHTML = game.points;
     if(game.points>=30){
     pt2();
     }
