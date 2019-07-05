@@ -1,3 +1,4 @@
+async function ded() {
 const playground = document.querySelector('#playground');
 const playground_width = Math.floor($('#playground').width());
 const playground_height = Math.floor($('#playground').height());
@@ -104,3 +105,5 @@ playground.addEventListener('click', ()=>{
   
 })
 
+}
+ded();
